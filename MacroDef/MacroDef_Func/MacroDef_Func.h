@@ -9,8 +9,8 @@
 #define MacroDef_Func_h
 
 #import "MacroDef_Sys.h"
-#import "DouYinAppDelegate.h"
-#import "DouYinSceneDelegate.h"
+//#import "DouYinAppDelegate.h"
+//#import "DouYinSceneDelegate.h"
 
 static inline UIWindow * getMainWindow(){
     UIWindow *window = nil;
@@ -23,23 +23,23 @@ static inline UIWindow * getMainWindow(){
             }
         }
     }
-    
-    if (DouYinAppDelegate.sharedInstance.window) {
-        window = DouYinAppDelegate.sharedInstance.window;
-        return window;
-    }
-    
+//
+//    if (DouYinAppDelegate.sharedInstance.window) {
+//        window = DouYinAppDelegate.sharedInstance.window;
+//        return window;
+//    }
+
     if (UIApplication.sharedApplication.delegate.window) {
         window = UIApplication.sharedApplication.delegate.window;
         return window;
     }
-    
+
     SuppressWdeprecatedDeclarationsWarning(
         if (UIApplication.sharedApplication.keyWindow) {
         window = UIApplication.sharedApplication.keyWindow;
         return window;
     });
-    
+
     return window;
 }
 /**
