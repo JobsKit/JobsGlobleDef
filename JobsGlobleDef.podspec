@@ -8,7 +8,6 @@
 
 Pod::Spec.new do |s|
 
-
   s.name         = "JobsGlobleDef"
 
   s.version      = "1.0.0"
@@ -21,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author       = { "alan" => "alan969543491@gmail.com" }
+  s.author       = { "alan" => "alan969543491@gmail.com","Jobs" => "lg295060456@vip.qq.com" }
 
   s.source       = { :git => "https://github.com/JobsKit/JobsGlobleDef.git", :tag => "#{s.version}" }
 
