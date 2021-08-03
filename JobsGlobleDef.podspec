@@ -18,24 +18,24 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://github.com/295060456"
   spec.source       = { :git => "https://github.com/JobsKit/JobsGlobleDef.git", :tag => "#{spec.version}" }
 
-  spec.subspec 'MacroDef' do |MacroDef|
-      MacroDef.source_files = 'MacroDef/**/*.{h,m}'
-      MacroDef.public_header_files = 'MacroDef/**/*.h'
-      MacroDef.frameworks = 'UIKit'
+  spec.subspec 'MacroDef' do |macroDef|
+      macroDef.source_files = 'JobsGlobleDefCore/MacroDef/**/*.{h,m}'
+      macroDef.public_header_files = 'JobsGlobleDefCore/MacroDef/**/*.h'
+      macroDef.frameworks = 'UIKit'
       #MacroDef.resource = 'GKPhotoBrowser/GKPhotoBrowser.bundle'
       #MacroDef.dependency 'ZFPlayer/Core'
   end
 
-  spec.subspec 'OtherGlobleDef' do |OtherGlobleDef|
-    OtherGlobleDef.source_files = 'OtherGlobleDef/**/*.{h,m}'
-    OtherGlobleDef.public_header_files = 'OtherGlobleDef/**/*.h'
-    OtherGlobleDef.frameworks = 'UIKit'
+  spec.subspec 'OtherGlobleDef' do |otherGlobleDef|
+    otherGlobleDef.source_files = 'JobsGlobleDefCore/OtherGlobleDef/**/*.{h,m}'
+    otherGlobleDef.public_header_files = 'JobsGlobleDefCore/OtherGlobleDef/**/*.h'
+    otherGlobleDef.frameworks = 'UIKit'
   end
 
-  spec.subspec 'NotificationManager' do |NotificationManager|
-    NotificationManager.source_files = 'NotificationManager/**/*.{h,m}'
-    NotificationManager.public_header_files = 'NotificationManager/**/*.h'
-    NotificationManager.frameworks = 'UIKit'
+  spec.subspec 'NotificationManager' do |notificationManager|
+    notificationManager.source_files = 'JobsGlobleDefCore/NotificationManager/**/*.{h,m}'
+    notificationManager.public_header_files = 'JobsGlobleDefCore/NotificationManager/**/*.h'
+    notificationManager.frameworks = 'UIKit'
   end
 
   spec.requires_arc = true
