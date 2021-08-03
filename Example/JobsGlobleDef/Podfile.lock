@@ -1,0 +1,16 @@
+PODS:
+  - JobsGlobleDef (1.0.0)
+
+DEPENDENCIES:
+  - JobsGlobleDef
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JobsGlobleDef
+
+SPEC CHECKSUMS:
+  JobsGlobleDef: 46a851206c10dc3baaf248d6f283aac4dc7fb186
+
+PODFILE CHECKSUM: 189f2d304c5b650cb6473e9fd721e8511a9e3d2a
+
+COCOAPODS: 1.10.2

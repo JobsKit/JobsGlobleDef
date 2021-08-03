@@ -1,0 +1,6 @@
+framework module JobsGlobleDef {
+  umbrella header "JobsGlobleDef-umbrella.h"
+
+  export *
+  module * { export * }
+}

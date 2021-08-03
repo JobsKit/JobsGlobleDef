@@ -1,0 +1,6 @@
+framework module Pods_JobsGlobleDef {
+  umbrella header "Pods-JobsGlobleDef-umbrella.h"
+
+  export *
+  module * { export * }
+}
