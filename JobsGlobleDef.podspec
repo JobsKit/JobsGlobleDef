@@ -19,21 +19,23 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/JobsKit/JobsGlobleDef.git", :tag => "#{spec.version}" }
 
   spec.subspec 'MacroDef' do |MacroDef|
-      core.source_files = 'MacroDef/**/*.{h,m}'
-      core.public_header_files = 'MacroDef/**/*.h'
-      core.frameworks = 'UIKit'
+      MacroDef.source_files = 'MacroDef/**/*.{h,m}'
+      MacroDef.public_header_files = 'MacroDef/**/*.h'
+      MacroDef.frameworks = 'UIKit'
+      #MacroDef.resource = 'GKPhotoBrowser/GKPhotoBrowser.bundle'
+      #MacroDef.dependency 'ZFPlayer/Core'
   end
 
   spec.subspec 'OtherGlobleDef' do |OtherGlobleDef|
-    core.source_files = 'OtherGlobleDef/**/*.{h,m}'
-    core.public_header_files = 'OtherGlobleDef/**/*.h'
-    core.frameworks = 'UIKit'
+    OtherGlobleDef.source_files = 'OtherGlobleDef/**/*.{h,m}'
+    OtherGlobleDef.public_header_files = 'OtherGlobleDef/**/*.h'
+    OtherGlobleDef.frameworks = 'UIKit'
   end
 
   spec.subspec 'NotificationManager' do |NotificationManager|
-    core.source_files = 'NotificationManager/**/*.{h,m}'
-    core.public_header_files = 'NotificationManager/**/*.h'
-    core.frameworks = 'UIKit'
+    NotificationManager.source_files = 'NotificationManager/**/*.{h,m}'
+    NotificationManager.public_header_files = 'NotificationManager/**/*.h'
+    NotificationManager.frameworks = 'UIKit'
   end
 
   spec.requires_arc = true
