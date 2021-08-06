@@ -1,5 +1,5 @@
 PODS:
-  - JobsGlobleDef (1.0.1)
+  - JobsGlobleDef (1.0.0)
 
 DEPENDENCIES:
   - JobsGlobleDef
@@ -9,7 +9,7 @@ SPEC REPOS:
     - JobsGlobleDef
 
 SPEC CHECKSUMS:
-  JobsGlobleDef: b4341037a59d27b6e7e1cbf41e7899ce49c35d86
+  JobsGlobleDef: 46a851206c10dc3baaf248d6f283aac4dc7fb186
 
 PODFILE CHECKSUM: 189f2d304c5b650cb6473e9fd721e8511a9e3d2a
 

@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JobsGlobleDef"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "JobsKit系统共用的宏定义"
   spec.description  = "JobsKit系统共用的宏定义,包含常见的宏定义"
   spec.homepage     = "https://github.com/JobsKit/JobsGlobleDef"
