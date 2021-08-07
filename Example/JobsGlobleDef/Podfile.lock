@@ -1,5 +1,11 @@
 PODS:
-  - JobsGlobleDef (1.0.0)
+  - JobsGlobleDef (1.0.3):
+    - JobsGlobleDef/MacroDef (= 1.0.3)
+    - JobsGlobleDef/NotificationManager (= 1.0.3)
+    - JobsGlobleDef/OtherGlobleDef (= 1.0.3)
+  - JobsGlobleDef/MacroDef (1.0.3)
+  - JobsGlobleDef/NotificationManager (1.0.3)
+  - JobsGlobleDef/OtherGlobleDef (1.0.3)
 
 DEPENDENCIES:
   - JobsGlobleDef
@@ -9,7 +15,7 @@ SPEC REPOS:
     - JobsGlobleDef
 
 SPEC CHECKSUMS:
-  JobsGlobleDef: 46a851206c10dc3baaf248d6f283aac4dc7fb186
+  JobsGlobleDef: e5535d8984e021692515cb694f5f68d86636430e
 
 PODFILE CHECKSUM: 189f2d304c5b650cb6473e9fd721e8511a9e3d2a
 

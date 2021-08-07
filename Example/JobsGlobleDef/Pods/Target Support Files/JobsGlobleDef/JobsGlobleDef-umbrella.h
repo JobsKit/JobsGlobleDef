@@ -17,10 +17,10 @@
 #import "MacroDef_AppDeviceScreenSize.h"
 #import "MacroDef_Sys.h"
 #import "MacroDef_SysWarning.h"
+#import "NotificationManager.h"
 #import "AABlock.h"
 #import "APIKey.h"
 #import "DefineStructure.h"
-#import "NotificationManager.h"
 
 FOUNDATION_EXPORT double JobsGlobleDefVersionNumber;
 FOUNDATION_EXPORT const unsigned char JobsGlobleDefVersionString[];

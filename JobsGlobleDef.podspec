@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JobsGlobleDef"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "JobsKit系统共用的宏定义"
   spec.description  = "JobsKit系统共用的宏定义,包含常见的宏定义"
   spec.homepage     = "https://github.com/JobsKit/JobsGlobleDef"
@@ -19,7 +19,12 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/JobsKit/JobsGlobleDef.git", :tag => "#{spec.version}" }
 
   spec.subspec 'MacroDef' do |macroDef|
-      macroDef.source_files = 'JobsGlobleDefCore/Classes/MacroDef/**/*.{h,m}'
+      # macroDef.source_files = 'JobsGlobleDefCore/Classes/MacroDef/**/*.{h,m}'
+      macroDef.source_files = {'JobsGlobleDefCore/Classes/MacroDef/MacroDef_App/**/*.{h,m}',
+      'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Cor/**/*.{h,m}',
+      JobsGlobleDefCore/Classes/MacroDef/MacroDef_Func/**/*.{h,m}',
+      JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/**/*.{h,m}',
+      JobsGlobleDefCore/Classes/MacroDef/MacroDef_Sys/**/*.{h,m}'}
       macroDef.public_header_files = 'JobsGlobleDefCore/Classes/MacroDef/**/*.h'
       macroDef.frameworks = 'UIKit'
       #MacroDef.resource = 'GKPhotoBrowser/GKPhotoBrowser.bundle'
