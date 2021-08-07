@@ -8,24 +8,44 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "JobsGlobleDef"
-  spec.version      = "1.0.4"
-  spec.summary      = "JobsKit系统共用的宏定义"
-  spec.description  = "JobsKit系统共用的宏定义,包含常见的宏定义"
-  spec.homepage     = "https://github.com/JobsKit/JobsGlobleDef"
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.authors       = { "alan" => "alan969543491@gmail.com","Jobs" => "lg295060456@vip.qq.com" }
+  spec.name         = "JobsGlobleDef"  # 项目名
+  spec.version      = "1.0.4"  # 版本号
+  spec.summary      = "JobsKit系统共用的宏定义"  # 简单描述
+  spec.description  = "JobsKit系统共用的宏定义,包含常见的宏定义"  # 详细描述
+  spec.homepage     = "https://github.com/JobsKit/JobsGlobleDef"# 项目的主页
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }  # 项目遵守的协议
+  spec.authors       = { "alan" => "alan969543491@gmail.com","Jobs" => "lg295060456@vip.qq.com" }  # 作者的邮箱
   spec.social_media_url   = "https://github.com/295060456"
-  spec.source       = { :git => "https://github.com/JobsKit/JobsGlobleDef.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/JobsKit/JobsGlobleDef.git", :tag => "#{spec.version}" }# git仓库的https地址
+  spec.requires_arc = true
+  spec.ios.deployment_target = "10.0"# 项目的最低版本支持
+  #spec.dependency "JobsGlobleDef" # https://github.com/JobsKit/JobsGlobleDef  // 添加其他的依赖项
 
   spec.subspec 'MacroDef' do |macroDef|
-      # macroDef.source_files = 'JobsGlobleDefCore/Classes/MacroDef/**/*.{h,m}'
-      macroDef.source_files = {'JobsGlobleDefCore/Classes/MacroDef/MacroDef_App/**/*.{h,m}',
-      'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Cor/**/*.{h,m}',
-      JobsGlobleDefCore/Classes/MacroDef/MacroDef_Func/**/*.{h,m}',
-      JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/**/*.{h,m}',
-      JobsGlobleDefCore/Classes/MacroDef/MacroDef_Sys/**/*.{h,m}'}
-      macroDef.public_header_files = 'JobsGlobleDefCore/Classes/MacroDef/**/*.h'
+      # 表示源文件的路径，这个路径是相对podspec文件而言的
+      # macroDef.source_files = 'JobsGlobleDefCore/Classes/MacroDef/**/*.{h,m}'# ❤️如果包含子文件夹则需要将这一句话屏蔽
+      # 子文件夹的写法（一定要把父文件夹的source_files给注释掉）
+      macroDef.subspec 'MacroDef_App' do |macroDef_App|
+        macroDef_App.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_App/**/*'
+      end
+
+      macroDef.subspec 'MacroDef_Cor' do |macroDef_Cor|
+        macroDef_Cor.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Cor/**/*'
+      end
+
+      macroDef.subspec 'MacroDef_Func' do |macroDef_Func|
+        macroDef_Func.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Func/**/*'
+      end
+
+      macroDef.subspec 'MacroDef_Size' do |macroDef_Size|
+        macroDef_Size.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/**/*'
+      end
+
+      macroDef.subspec 'MacroDef_Sys' do |macroDef_Sys|
+        macroDef_Sys.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Sys/**/*'
+      end
+
+      # macroDef.public_header_files = 'JobsGlobleDefCore/Classes/MacroDef/**/*.h'
       macroDef.frameworks = 'UIKit'
       #MacroDef.resource = 'GKPhotoBrowser/GKPhotoBrowser.bundle'
       #MacroDef.dependency 'ZFPlayer/Core'
@@ -42,9 +62,4 @@ Pod::Spec.new do |spec|
     notificationManager.public_header_files = 'JobsGlobleDefCore/Classes/NotificationManager/**/*.h'
     notificationManager.frameworks = 'UIKit'
   end
-
-  spec.requires_arc = true
-  spec.ios.deployment_target = "10.0"
-  #spec.dependency "JobsGlobleDef" # https://github.com/JobsKit/JobsGlobleDef  // 添加其他的依赖项
-
 end
