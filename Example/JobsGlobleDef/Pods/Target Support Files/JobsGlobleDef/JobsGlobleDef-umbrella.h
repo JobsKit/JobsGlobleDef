@@ -13,6 +13,7 @@
 #import "MacroDef_App.h"
 #import "MacroDef_Cor.h"
 #import "MacroDef_Func.h"
+#import "MacroDef_AppDeviceScreenSize.h"
 #import "MacroDef_Size.h"
 #import "MacroDef_AppDeviceScreenSize.h"
 #import "MacroDef_Sys.h"

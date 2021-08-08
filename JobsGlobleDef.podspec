@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
       end
 
       macroDef.subspec 'MacroDef_Size' do |macroDef_Size|
-        macroDef_Size.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/**/*'
+        # macroDef_Size.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/**/*'
 
         macroDef_Size.subspec 'AppleProductsScreenSize' do |appleProductsScreenSize|
           appleProductsScreenSize.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/appleProductsScreenSize/**/*'

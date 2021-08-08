@@ -1,21 +1,23 @@
 PODS:
-  - JobsGlobleDef (1.0.4):
-    - JobsGlobleDef/MacroDef (= 1.0.4)
-    - JobsGlobleDef/NotificationManager (= 1.0.4)
-    - JobsGlobleDef/OtherGlobleDef (= 1.0.4)
-  - JobsGlobleDef/MacroDef (1.0.4):
-    - JobsGlobleDef/MacroDef/MacroDef_App (= 1.0.4)
-    - JobsGlobleDef/MacroDef/MacroDef_Cor (= 1.0.4)
-    - JobsGlobleDef/MacroDef/MacroDef_Func (= 1.0.4)
-    - JobsGlobleDef/MacroDef/MacroDef_Size (= 1.0.4)
-    - JobsGlobleDef/MacroDef/MacroDef_Sys (= 1.0.4)
-  - JobsGlobleDef/MacroDef/MacroDef_App (1.0.4)
-  - JobsGlobleDef/MacroDef/MacroDef_Cor (1.0.4)
-  - JobsGlobleDef/MacroDef/MacroDef_Func (1.0.4)
-  - JobsGlobleDef/MacroDef/MacroDef_Size (1.0.4)
-  - JobsGlobleDef/MacroDef/MacroDef_Sys (1.0.4)
-  - JobsGlobleDef/NotificationManager (1.0.4)
-  - JobsGlobleDef/OtherGlobleDef (1.0.4)
+  - JobsGlobleDef (1.0.6):
+    - JobsGlobleDef/MacroDef (= 1.0.6)
+    - JobsGlobleDef/NotificationManager (= 1.0.6)
+    - JobsGlobleDef/OtherGlobleDef (= 1.0.6)
+  - JobsGlobleDef/MacroDef (1.0.6):
+    - JobsGlobleDef/MacroDef/MacroDef_App (= 1.0.6)
+    - JobsGlobleDef/MacroDef/MacroDef_Cor (= 1.0.6)
+    - JobsGlobleDef/MacroDef/MacroDef_Func (= 1.0.6)
+    - JobsGlobleDef/MacroDef/MacroDef_Size (= 1.0.6)
+    - JobsGlobleDef/MacroDef/MacroDef_Sys (= 1.0.6)
+  - JobsGlobleDef/MacroDef/MacroDef_App (1.0.6)
+  - JobsGlobleDef/MacroDef/MacroDef_Cor (1.0.6)
+  - JobsGlobleDef/MacroDef/MacroDef_Func (1.0.6)
+  - JobsGlobleDef/MacroDef/MacroDef_Size (1.0.6):
+    - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (= 1.0.6)
+  - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (1.0.6)
+  - JobsGlobleDef/MacroDef/MacroDef_Sys (1.0.6)
+  - JobsGlobleDef/NotificationManager (1.0.6)
+  - JobsGlobleDef/OtherGlobleDef (1.0.6)
 
 DEPENDENCIES:
   - JobsGlobleDef
@@ -25,7 +27,7 @@ SPEC REPOS:
     - JobsGlobleDef
 
 SPEC CHECKSUMS:
-  JobsGlobleDef: 50c88962f74507d33d24eeb27b37925df23de30a
+  JobsGlobleDef: 065510cf19c8112da0ed541cda5fc22448fe7477
 
 PODFILE CHECKSUM: 189f2d304c5b650cb6473e9fd721e8511a9e3d2a
 

@@ -7,56 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A6133000002B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6133000002A0 /* Foundation.framework */; };
-		2A6133000002C0 /* MacroDef_App.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000000E0 /* MacroDef_App.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A6133000002D0 /* MacroDef_Cor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000100 /* MacroDef_Cor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A6133000002E0 /* MacroDef_Func.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000120 /* MacroDef_Func.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A6133000002F0 /* MacroDef_Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000140 /* MacroDef_Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000300 /* MacroDef_AppDeviceScreenSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000150 /* MacroDef_AppDeviceScreenSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000310 /* MacroDef_Sys.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000170 /* MacroDef_Sys.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000320 /* MacroDef_SysWarning.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000180 /* MacroDef_SysWarning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000330 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6133000001B0 /* NotificationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2A613300000340 /* NotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000001A0 /* NotificationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000350 /* AABlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000001D0 /* AABlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000360 /* APIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000001E0 /* APIKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000370 /* DefineStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000001F0 /* DefineStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A6133000003D0 /* JobsGlobleDef-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000003C0 /* JobsGlobleDef-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A613300000410 /* JobsGlobleDef-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A613300000400 /* JobsGlobleDef-dummy.m */; };
-		2A613300000430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A613300000420 /* UIKit.framework */; };
+		2A6133000002C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6133000002B0 /* Foundation.framework */; };
+		2A6133000002D0 /* MacroDef_App.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000000E0 /* MacroDef_App.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A6133000002E0 /* MacroDef_Cor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000100 /* MacroDef_Cor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A6133000002F0 /* MacroDef_Func.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000120 /* MacroDef_Func.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000300 /* MacroDef_AppDeviceScreenSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000140 /* MacroDef_AppDeviceScreenSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000310 /* MacroDef_Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000150 /* MacroDef_Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000320 /* MacroDef_Sys.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000180 /* MacroDef_Sys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000330 /* MacroDef_SysWarning.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000190 /* MacroDef_SysWarning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000340 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6133000001C0 /* NotificationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A613300000350 /* NotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000001B0 /* NotificationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000360 /* AABlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000001E0 /* AABlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000370 /* APIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000001F0 /* APIKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000380 /* DefineStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613300000200 /* DefineStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A6133000003E0 /* JobsGlobleDef-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6133000003D0 /* JobsGlobleDef-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A613300000420 /* JobsGlobleDef-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A613300000410 /* JobsGlobleDef-dummy.m */; };
+		2A613300000440 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A613300000430 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A6133000000E0 /* MacroDef_App.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_App.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_App/MacroDef_App.h; sourceTree = "<group>"; };
 		2A613300000100 /* MacroDef_Cor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_Cor.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Cor/MacroDef_Cor.h; sourceTree = "<group>"; };
 		2A613300000120 /* MacroDef_Func.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_Func.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Func/MacroDef_Func.h; sourceTree = "<group>"; };
-		2A613300000140 /* MacroDef_Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_Size.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/MacroDef_Size.h; sourceTree = "<group>"; };
-		2A613300000150 /* MacroDef_AppDeviceScreenSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_AppDeviceScreenSize.h; path = "JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/苹果产品尺寸/MacroDef_AppDeviceScreenSize.h"; sourceTree = "<group>"; };
-		2A613300000170 /* MacroDef_Sys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_Sys.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Sys/MacroDef_Sys.h; sourceTree = "<group>"; };
-		2A613300000180 /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_SysWarning.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Sys/MacroDef_SysWarning.h; sourceTree = "<group>"; };
-		2A6133000001A0 /* NotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationManager.h; path = JobsGlobleDefCore/Classes/NotificationManager/NotificationManager.h; sourceTree = "<group>"; };
-		2A6133000001B0 /* NotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NotificationManager.m; path = JobsGlobleDefCore/Classes/NotificationManager/NotificationManager.m; sourceTree = "<group>"; };
-		2A6133000001D0 /* AABlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AABlock.h; path = JobsGlobleDefCore/Classes/OtherGlobleDef/AABlock.h; sourceTree = "<group>"; };
-		2A6133000001E0 /* APIKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIKey.h; path = JobsGlobleDefCore/Classes/OtherGlobleDef/APIKey.h; sourceTree = "<group>"; };
-		2A6133000001F0 /* DefineStructure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefineStructure.h; path = JobsGlobleDefCore/Classes/OtherGlobleDef/DefineStructure.h; sourceTree = "<group>"; };
-		2A6133000002A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2A613300000390 /* JobsGlobleDef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JobsGlobleDef.debug.xcconfig; sourceTree = "<group>"; };
-		2A6133000003A0 /* JobsGlobleDef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JobsGlobleDef.release.xcconfig; sourceTree = "<group>"; };
-		2A6133000003B0 /* JobsGlobleDef.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JobsGlobleDef.modulemap; sourceTree = "<group>"; };
-		2A6133000003C0 /* JobsGlobleDef-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JobsGlobleDef-umbrella.h"; sourceTree = "<group>"; };
-		2A6133000003E0 /* JobsGlobleDef-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JobsGlobleDef-Info.plist"; sourceTree = "<group>"; };
-		2A6133000003F0 /* JobsGlobleDef-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JobsGlobleDef-prefix.pch"; sourceTree = "<group>"; };
-		2A613300000400 /* JobsGlobleDef-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JobsGlobleDef-dummy.m"; sourceTree = "<group>"; };
-		2A613300000420 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2A613300000140 /* MacroDef_AppDeviceScreenSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_AppDeviceScreenSize.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/AppleProductsScreenSize/MacroDef_AppDeviceScreenSize.h; sourceTree = "<group>"; };
+		2A613300000150 /* MacroDef_Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_Size.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/MacroDef_Size.h; sourceTree = "<group>"; };
+		2A613300000180 /* MacroDef_Sys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_Sys.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Sys/MacroDef_Sys.h; sourceTree = "<group>"; };
+		2A613300000190 /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDef_SysWarning.h; path = JobsGlobleDefCore/Classes/MacroDef/MacroDef_Sys/MacroDef_SysWarning.h; sourceTree = "<group>"; };
+		2A6133000001B0 /* NotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationManager.h; path = JobsGlobleDefCore/Classes/NotificationManager/NotificationManager.h; sourceTree = "<group>"; };
+		2A6133000001C0 /* NotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NotificationManager.m; path = JobsGlobleDefCore/Classes/NotificationManager/NotificationManager.m; sourceTree = "<group>"; };
+		2A6133000001E0 /* AABlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AABlock.h; path = JobsGlobleDefCore/Classes/OtherGlobleDef/AABlock.h; sourceTree = "<group>"; };
+		2A6133000001F0 /* APIKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIKey.h; path = JobsGlobleDefCore/Classes/OtherGlobleDef/APIKey.h; sourceTree = "<group>"; };
+		2A613300000200 /* DefineStructure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefineStructure.h; path = JobsGlobleDefCore/Classes/OtherGlobleDef/DefineStructure.h; sourceTree = "<group>"; };
+		2A6133000002B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2A6133000003A0 /* JobsGlobleDef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JobsGlobleDef.debug.xcconfig; sourceTree = "<group>"; };
+		2A6133000003B0 /* JobsGlobleDef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JobsGlobleDef.release.xcconfig; sourceTree = "<group>"; };
+		2A6133000003C0 /* JobsGlobleDef.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JobsGlobleDef.modulemap; sourceTree = "<group>"; };
+		2A6133000003D0 /* JobsGlobleDef-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JobsGlobleDef-umbrella.h"; sourceTree = "<group>"; };
+		2A6133000003F0 /* JobsGlobleDef-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JobsGlobleDef-Info.plist"; sourceTree = "<group>"; };
+		2A613300000400 /* JobsGlobleDef-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JobsGlobleDef-prefix.pch"; sourceTree = "<group>"; };
+		2A613300000410 /* JobsGlobleDef-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JobsGlobleDef-dummy.m"; sourceTree = "<group>"; };
+		2A613300000430 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BFDF7072C0B9E3E9589DC9ED742B66F9 /* JobsGlobleDef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JobsGlobleDef.framework; path = JobsGlobleDef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A613300000270 /* Frameworks */ = {
+		2A613300000280 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A6133000002B0 /* Foundation.framework in Frameworks */,
-				2A613300000430 /* UIKit.framework in Frameworks */,
+				2A6133000002C0 /* Foundation.framework in Frameworks */,
+				2A613300000440 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		2A613300000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2A613300000290 /* iOS */,
+				2A6133000002A0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,9 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				2A6133000000C0 /* MacroDef */,
-				2A613300000190 /* NotificationManager */,
-				2A6133000001C0 /* OtherGlobleDef */,
-				2A613300000380 /* Support Files */,
+				2A6133000001A0 /* NotificationManager */,
+				2A6133000001D0 /* OtherGlobleDef */,
+				2A613300000390 /* Support Files */,
 			);
 			name = JobsGlobleDef;
 			path = JobsGlobleDef;
@@ -107,7 +107,7 @@
 				2A6133000000F0 /* MacroDef_Cor */,
 				2A613300000110 /* MacroDef_Func */,
 				2A613300000130 /* MacroDef_Size */,
-				2A613300000160 /* MacroDef_Sys */,
+				2A613300000170 /* MacroDef_Sys */,
 			);
 			name = MacroDef;
 			sourceTree = "<group>";
@@ -139,59 +139,67 @@
 		2A613300000130 /* MacroDef_Size */ = {
 			isa = PBXGroup;
 			children = (
-				2A613300000150 /* MacroDef_AppDeviceScreenSize.h */,
-				2A613300000140 /* MacroDef_Size.h */,
+				2A613300000140 /* MacroDef_AppDeviceScreenSize.h */,
+				2A613300000150 /* MacroDef_Size.h */,
+				2A613300000160 /* AppleProductsScreenSize */,
 			);
 			name = MacroDef_Size;
 			sourceTree = "<group>";
 		};
-		2A613300000160 /* MacroDef_Sys */ = {
+		2A613300000160 /* AppleProductsScreenSize */ = {
 			isa = PBXGroup;
 			children = (
-				2A613300000170 /* MacroDef_Sys.h */,
-				2A613300000180 /* MacroDef_SysWarning.h */,
+			);
+			name = AppleProductsScreenSize;
+			sourceTree = "<group>";
+		};
+		2A613300000170 /* MacroDef_Sys */ = {
+			isa = PBXGroup;
+			children = (
+				2A613300000180 /* MacroDef_Sys.h */,
+				2A613300000190 /* MacroDef_SysWarning.h */,
 			);
 			name = MacroDef_Sys;
 			sourceTree = "<group>";
 		};
-		2A613300000190 /* NotificationManager */ = {
+		2A6133000001A0 /* NotificationManager */ = {
 			isa = PBXGroup;
 			children = (
-				2A6133000001A0 /* NotificationManager.h */,
-				2A6133000001B0 /* NotificationManager.m */,
+				2A6133000001B0 /* NotificationManager.h */,
+				2A6133000001C0 /* NotificationManager.m */,
 			);
 			name = NotificationManager;
 			sourceTree = "<group>";
 		};
-		2A6133000001C0 /* OtherGlobleDef */ = {
+		2A6133000001D0 /* OtherGlobleDef */ = {
 			isa = PBXGroup;
 			children = (
-				2A6133000001D0 /* AABlock.h */,
-				2A6133000001E0 /* APIKey.h */,
-				2A6133000001F0 /* DefineStructure.h */,
+				2A6133000001E0 /* AABlock.h */,
+				2A6133000001F0 /* APIKey.h */,
+				2A613300000200 /* DefineStructure.h */,
 			);
 			name = OtherGlobleDef;
 			sourceTree = "<group>";
 		};
-		2A613300000290 /* iOS */ = {
+		2A6133000002A0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2A6133000002A0 /* Foundation.framework */,
-				2A613300000420 /* UIKit.framework */,
+				2A6133000002B0 /* Foundation.framework */,
+				2A613300000430 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		2A613300000380 /* Support Files */ = {
+		2A613300000390 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A6133000003B0 /* JobsGlobleDef.modulemap */,
-				2A613300000400 /* JobsGlobleDef-dummy.m */,
-				2A6133000003E0 /* JobsGlobleDef-Info.plist */,
-				2A6133000003F0 /* JobsGlobleDef-prefix.pch */,
-				2A6133000003C0 /* JobsGlobleDef-umbrella.h */,
-				2A613300000390 /* JobsGlobleDef.debug.xcconfig */,
-				2A6133000003A0 /* JobsGlobleDef.release.xcconfig */,
+				2A6133000003C0 /* JobsGlobleDef.modulemap */,
+				2A613300000410 /* JobsGlobleDef-dummy.m */,
+				2A6133000003F0 /* JobsGlobleDef-Info.plist */,
+				2A613300000400 /* JobsGlobleDef-prefix.pch */,
+				2A6133000003D0 /* JobsGlobleDef-umbrella.h */,
+				2A6133000003A0 /* JobsGlobleDef.debug.xcconfig */,
+				2A6133000003B0 /* JobsGlobleDef.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JobsGlobleDef";
@@ -200,22 +208,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A613300000250 /* Headers */ = {
+		2A613300000260 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A613300000350 /* AABlock.h in Headers */,
-				2A613300000360 /* APIKey.h in Headers */,
-				2A613300000370 /* DefineStructure.h in Headers */,
-				2A6133000003D0 /* JobsGlobleDef-umbrella.h in Headers */,
-				2A6133000002C0 /* MacroDef_App.h in Headers */,
+				2A613300000360 /* AABlock.h in Headers */,
+				2A613300000370 /* APIKey.h in Headers */,
+				2A613300000380 /* DefineStructure.h in Headers */,
+				2A6133000003E0 /* JobsGlobleDef-umbrella.h in Headers */,
+				2A6133000002D0 /* MacroDef_App.h in Headers */,
 				2A613300000300 /* MacroDef_AppDeviceScreenSize.h in Headers */,
-				2A6133000002D0 /* MacroDef_Cor.h in Headers */,
-				2A6133000002E0 /* MacroDef_Func.h in Headers */,
-				2A6133000002F0 /* MacroDef_Size.h in Headers */,
-				2A613300000310 /* MacroDef_Sys.h in Headers */,
-				2A613300000320 /* MacroDef_SysWarning.h in Headers */,
-				2A613300000340 /* NotificationManager.h in Headers */,
+				2A6133000002E0 /* MacroDef_Cor.h in Headers */,
+				2A6133000002F0 /* MacroDef_Func.h in Headers */,
+				2A613300000310 /* MacroDef_Size.h in Headers */,
+				2A613300000320 /* MacroDef_Sys.h in Headers */,
+				2A613300000330 /* MacroDef_SysWarning.h in Headers */,
+				2A613300000350 /* NotificationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,12 +232,12 @@
 /* Begin PBXNativeTarget section */
 		8F6A2149406E72A932AE8B005525F891 /* JobsGlobleDef */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A613300000210 /* Build configuration list for PBXNativeTarget "JobsGlobleDef" */;
+			buildConfigurationList = 2A613300000220 /* Build configuration list for PBXNativeTarget "JobsGlobleDef" */;
 			buildPhases = (
-				2A613300000250 /* Headers */,
-				2A613300000260 /* Sources */,
-				2A613300000270 /* Frameworks */,
-				2A613300000280 /* Resources */,
+				2A613300000260 /* Headers */,
+				2A613300000270 /* Sources */,
+				2A613300000280 /* Frameworks */,
+				2A613300000290 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -268,7 +276,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A613300000280 /* Resources */ = {
+		2A613300000290 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,12 +286,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A613300000260 /* Sources */ = {
+		2A613300000270 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A613300000410 /* JobsGlobleDef-dummy.m in Sources */,
-				2A613300000330 /* NotificationManager.m in Sources */,
+				2A613300000420 /* JobsGlobleDef-dummy.m in Sources */,
+				2A613300000340 /* NotificationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +426,9 @@
 			};
 			name = Release;
 		};
-		2A613300000220 /* Release */ = {
+		2A613300000230 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A6133000003A0 /* JobsGlobleDef.release.xcconfig */;
+			baseConfigurationReference = 2A6133000003B0 /* JobsGlobleDef.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -453,9 +461,9 @@
 			};
 			name = Release;
 		};
-		2A613300000230 /* Debug */ = {
+		2A613300000240 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A613300000390 /* JobsGlobleDef.debug.xcconfig */;
+			baseConfigurationReference = 2A6133000003A0 /* JobsGlobleDef.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -499,11 +507,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A613300000210 /* Build configuration list for PBXNativeTarget "JobsGlobleDef" */ = {
+		2A613300000220 /* Build configuration list for PBXNativeTarget "JobsGlobleDef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A613300000230 /* Debug */,
-				2A613300000220 /* Release */,
+				2A613300000240 /* Debug */,
+				2A613300000230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
