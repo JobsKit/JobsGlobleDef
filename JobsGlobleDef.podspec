@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JobsGlobleDef"  # 项目名
-  spec.version      = "1.0.5"  # 版本号
+  spec.version      = "1.0.6"  # 版本号
   spec.summary      = "JobsKit系统共用的宏定义"  # 简单描述
   spec.description  = "JobsKit系统共用的宏定义,包含常见的宏定义"  # 详细描述
   spec.homepage     = "https://github.com/JobsKit/JobsGlobleDef"# 项目的主页
@@ -40,8 +40,8 @@ Pod::Spec.new do |spec|
       macroDef.subspec 'MacroDef_Size' do |macroDef_Size|
         macroDef_Size.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/**/*'
 
-        macroDef_Size.subspec '苹果产品尺寸' do |appleProductsScreenSize|
-          appleProductsScreenSize.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/苹果产品尺寸/**/*'
+        macroDef_Size.subspec 'AppleProductsScreenSize' do |appleProductsScreenSize|
+          appleProductsScreenSize.source_files = 'JobsGlobleDefCore/Classes/MacroDef/MacroDef_Size/appleProductsScreenSize/**/*'
         end
 
       end
