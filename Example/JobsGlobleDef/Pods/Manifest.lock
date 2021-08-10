@@ -1,23 +1,23 @@
 PODS:
-  - JobsGlobleDef (1.0.7):
-    - JobsGlobleDef/MacroDef (= 1.0.7)
-    - JobsGlobleDef/NotificationManager (= 1.0.7)
-    - JobsGlobleDef/OtherGlobleDef (= 1.0.7)
-  - JobsGlobleDef/MacroDef (1.0.7):
-    - JobsGlobleDef/MacroDef/MacroDef_App (= 1.0.7)
-    - JobsGlobleDef/MacroDef/MacroDef_Cor (= 1.0.7)
-    - JobsGlobleDef/MacroDef/MacroDef_Func (= 1.0.7)
-    - JobsGlobleDef/MacroDef/MacroDef_Size (= 1.0.7)
-    - JobsGlobleDef/MacroDef/MacroDef_Sys (= 1.0.7)
-  - JobsGlobleDef/MacroDef/MacroDef_App (1.0.7)
-  - JobsGlobleDef/MacroDef/MacroDef_Cor (1.0.7)
-  - JobsGlobleDef/MacroDef/MacroDef_Func (1.0.7)
-  - JobsGlobleDef/MacroDef/MacroDef_Size (1.0.7):
-    - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (= 1.0.7)
-  - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (1.0.7)
-  - JobsGlobleDef/MacroDef/MacroDef_Sys (1.0.7)
-  - JobsGlobleDef/NotificationManager (1.0.7)
-  - JobsGlobleDef/OtherGlobleDef (1.0.7)
+  - JobsGlobleDef (1.0.8):
+    - JobsGlobleDef/MacroDef (= 1.0.8)
+    - JobsGlobleDef/NotificationManager (= 1.0.8)
+    - JobsGlobleDef/OtherGlobleDef (= 1.0.8)
+  - JobsGlobleDef/MacroDef (1.0.8):
+    - JobsGlobleDef/MacroDef/MacroDef_App (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Cor (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Func (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Size (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Sys (= 1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_App (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Cor (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Func (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Size (1.0.8):
+    - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (= 1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Sys (1.0.8)
+  - JobsGlobleDef/NotificationManager (1.0.8)
+  - JobsGlobleDef/OtherGlobleDef (1.0.8)
 
 DEPENDENCIES:
   - JobsGlobleDef
@@ -27,7 +27,7 @@ SPEC REPOS:
     - JobsGlobleDef
 
 SPEC CHECKSUMS:
-  JobsGlobleDef: 4166e6528b6b5bacb37786fd998fe0af1b0bfe34
+  JobsGlobleDef: ffa1213c6f5826a6e0308f9285b0843ddd3eaab6
 
 PODFILE CHECKSUM: 189f2d304c5b650cb6473e9fd721e8511a9e3d2a
 
