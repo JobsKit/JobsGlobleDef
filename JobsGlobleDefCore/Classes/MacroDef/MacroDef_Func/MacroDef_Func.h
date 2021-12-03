@@ -8,9 +8,16 @@
 #ifndef MacroDef_Func_h
 #define MacroDef_Func_h
 
-#import "MacroDef_Sys.h"
-//#import "DouYinAppDelegate.h"
-//#import "DouYinSceneDelegate.h"
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+
+#import "MacroDef_Print.h"
+#import "MacroDef_Notification.h"
+#import "MacroDef_QUEUE.h"
+#import "MacroDef_String.h"
+#import "MacroDef_UserDefault.h"
+#import "MacroDef_Strong@Weak.h"
+#import "MacroDef_Time.h"
 
 static inline UIWindow * getMainWindow(){
     UIWindow *window = nil;
@@ -23,23 +30,23 @@ static inline UIWindow * getMainWindow(){
             }
         }
     }
-//
-//    if (DouYinAppDelegate.sharedInstance.window) {
-//        window = DouYinAppDelegate.sharedInstance.window;
-//        return window;
-//    }
-
+    
+    if (AppDelegate.sharedInstance.window) {
+        window = AppDelegate.sharedInstance.window;
+        return window;
+    }
+    
     if (UIApplication.sharedApplication.delegate.window) {
         window = UIApplication.sharedApplication.delegate.window;
         return window;
     }
-
+    
     SuppressWdeprecatedDeclarationsWarning(
         if (UIApplication.sharedApplication.keyWindow) {
         window = UIApplication.sharedApplication.keyWindow;
         return window;
     });
-
+    
     return window;
 }
 /**
@@ -51,7 +58,6 @@ static inline BOOL isiPhoneX_series() {
     if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
         return iPhoneXSeries;
     }
-
     if (@available(iOS 11.0, *)) {
         UIWindow *mainWindow = getMainWindow();
         if (mainWindow.safeAreaInsets.bottom > 0.0) {
@@ -66,64 +72,25 @@ static inline id getSceneDelegate(){
         sceneDelegate = UIApplication.sharedApplication.connectedScenes.allObjects.firstObject.delegate;
     }return sceneDelegate;
 }
-
-#pragma mark ======================================== 字体 ================================================
-#define kFontSize(x) [UIFont systemFontOfSize:x weight:UIFontWeightRegular]
-
-#pragma mark ======================================== 沙盒路径 =============================================
-#define PATH_OF_APP_HOME    NSHomeDirectory()
-#define PATH_OF_TEMP        NSTemporaryDirectory()
-#define PATH_OF_DOCUMENT    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
-
-#pragma mark ======================================== 默认值 ========================================
+/// 定义一些默认值
+#ifndef DefaultValue
 #define DefaultValue 0
+#endif
+
+#ifndef DefaultObj
 #define DefaultObj Nil
+#endif
+
+#ifndef DefaultSize
 #define DefaultSize CGSizeZero
-
-//判断是否登录,没有登录进行跳转
-#define kGuardLogin if ([IsLogin isLogin]) { \
-UIViewController *rootViewController = kKeyWindow.rootViewController; \
-TopicLoginViewController *vc = [[TopicLoginViewController alloc] init]; \
-UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc]; \
-[rootViewController presentViewController:nav animated:YES completion:nil]; \
-return; \
-} \
-
-#pragma mark ======================================== 本地化字符串 ========================================
-/** NSLocalizedString宏做的其实就是在当前bundle中查找资源文件名“Localizable.strings”(参数:键＋注释) */
-#define LocalString(x, ...)     NSLocalizedString(x, nil)
-#define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]
-#pragma mark ======================================== 强弱引用 ==============================================
-#define WeakSelf __weak typeof(self) weakSelf = self;
-#define StrongSelf __strong typeof(self) strongSelf = self;
-#pragma mark ======================================== 其他 =================================================
+#endif
+/// 其他
+#ifndef ReuseIdentifier
 #define ReuseIdentifier NSStringFromClass ([self class])
-#define CurrentThread [NSThread currentThread]
-#define PrintRetainCount(obj) printf("Retain Count = %ld\n",CFGetRetainCount((__bridge CFTypeRef)(obj)));//打印引用计数器
-//- (void)add:(NSString *)txt{}
-#define addText(fmt, ...) [self add:[NSString stringWithFormat:fmt, ##__VA_ARGS__]]//多参数
+#endif
 
-#pragma mark ======================================== 队列相关 ==============================================
-///异步获取某个队列
-#define GET_QUEUE_ASYNC(queue, block)\
-if (strcmp(dispatch_queue_get_label(DISPATCH_CURRENT_QUEUE_LABEL), dispatch_queue_get_label(queue)) == 0) {\
-block();\
-} else {\
-dispatch_async(queue, block);\
-}
-///获取主队列
-#define GET_MAIN_QUEUE_ASYNC(block) GET_QUEUE_ASYNC(dispatch_get_main_queue(), block)
-
-#pragma mark ======================================== 时间相关 ========================================
-/** 时间间隔 */
-#define kHUDDuration            (1.f)
-/** 一天的秒数 */
-#define SecondsOfDay            (24.f * 60.f * 60.f)
-/** 秒数 */
-#define Seconds(Days)           (24.f * 60.f * 60.f * (Days))
-/** 一天的毫秒数 */
-#define MillisecondsOfDay       (24.f * 60.f * 60.f * 1000.f)
-/** 毫秒数 */
-#define Milliseconds(Days)      (24.f * 60.f * 60.f * 1000.f * (Days))
+#ifndef AvailableSysVersion
+#define AvailableSysVersion(version) @available(iOS version, *)
+#endif
 
 #endif /* MacroDef_Func_h */
